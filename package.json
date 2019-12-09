@@ -1,0 +1,21 @@
+{
+  "name": "birdpoller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node out/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/sqlite3": "^3.1.5",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "sqlite3": "^4.1.1"
+  }
+}
